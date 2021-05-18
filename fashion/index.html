@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>caf</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- top menu /search & account area ---------------------->
+      <div class="inner">
+        <h1 class="logo title">
+          <a href="#">
+            <img src="./img/caf.png" alt="ロゴ">
+          </a>
+        </h1>
+        <div class="right-conts">
+          <div class="search">
+            <input type="text" class="site-search" name="search">
+            <a href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <a class="cart-btn" href="javascript:void(0);">
+            <div class="cart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="cart-items">
+              <p>0</p>
+            </div>
+          </a>
+          <div class="account">
+            <a href="#">
+              <i class="fas fa-user-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-area">
+      <!-- concept top image area -------------------------------->
+      <section class="concept-img inner">
+        <h2 class="title">
+          <img src="./img/paragraph.png" alt="">
+        </h2>
+      </section>
+
+      <!-- recommend area ----------------------------------------->
+      <section class="recommend-area">
+        <h3>Recommend for you</h3>
+        <!-- slick slider　------------------------------>
+        <div class="recommend-items">
+          <ul id="slick">
+            <li>
+              <figure>
+                <img src="./img/slide05.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>タートル</small></p>
+                  <p><small>ふわっとタッチニット</small></p>
+                  <p><small>¥3,985</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide06.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>タートルドルマン</small></p>
+                  <p><small>なめらかニット</small></p>
+                  <p><small>¥3,985</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide07.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>ボトルネック</small></p>
+                  <p><small>リブニットプルオーバー</small></p>
+                  <p><small>¥3,229</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide01.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>手編みペルーニット　ケーブルニット</small></p>
+                  <p><small>ビックシルエットカーディガン</small></p>
+                  <p><small>¥25,920</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide02.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>ホールガーメント</small></p>
+                  <p><small>タートルスクエアニット</small></p>
+                  <p><small>¥8,640</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide03.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>コットンケーブルク</small></p>
+                  <p><small>ドルマンニット</small></p>
+                  <p><small>¥6,804</small></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/slide04.png" alt="">
+                <figcaption class="product-information">
+                  <p><small>ルーニット</small></p>
+                  <p><small>トップス</small></p>
+                  <p><small>¥3,996</small></p>
+                </figcaption>
+              </figure>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- sale area -------------------------------------------->
+      <div class="sale inner">
+        <img src="./img/sale.png" alt="セール">
+      </div>
+
+      <!-- category items area ---------------------------------->
+      <section class="category-area">
+        <h3 class="title">Category</h3>
+        <div class="category-flex">
+          <div class="category-conts">
+            <ul class="category-type">
+              <li class="category" data-target="pants-conts">
+                <a href="#mens-ladies">パンツ(900)</a>
+              </li>
+              <li>
+                <a>トップス(900)</a>
+              </li>
+              <li class="category" data-target="jacket-conts">
+                <a href="#mens-ladies">アウター(900)</a>
+              </li>
+              <li>
+                <a>インナー(900)</a>
+              </li>
+              <li>
+                <a>バック(900)</a>
+              </li>
+              <li>
+                <a>シューズ(900)</a>
+              </li>
+              <li>
+                <a>アクセサリー(900)</a>
+              </li>
+              <li>
+                <a>ファッション小物(900)</a>
+              </li>
+              <li>
+                <a>雑貨(900)</a>
+              </li>
+            </ul>
+            <h4 class="title">サイズ</h4>
+            <ul class="size">
+              <li>
+                <a>XS</a>
+              </li>
+              <li>
+                <a>S</a>
+              </li>
+              <li>
+                <a>M</a>
+              </li>
+              <li>
+                <a>L</a>
+              </li>
+              <li>
+                <a>XL</a>
+              </li>
+              <li>
+                <a>3L</a>
+              </li>
+              <li>
+                <a>4L</a>
+              </li>
+              <li>
+                <a>5L</a>
+              </li>
+              <li>
+                <a>6L</a>
+              </li>
+              <li>
+                <a>7L</a>
+              </li>
+              <li>
+                <a>8L</a>
+              </li>
+              <li>
+                <a>Free</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- mens & ladies items --------------------------------->
+          <div id="mens-ladies" class="all-items">
+            <!-- pants　area ------------------------------------>
+            <div class="pants-conts active">
+              <div class="pants-flex">
+                <!-- mens-pants-items -------------------------->
+                <article class="mens-items">
+                  <h4 class="title">Mens</h4>
+                  <ul>
+                    <li>
+                      <figure data-items="01">
+                        <img src="./img/m_pants01.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥34,560</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="02">
+                        <img src="./img/m_pants02.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="03">
+                        <img src="./img/m_pants03.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="04">
+                        <img src="./img/m_pants04.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="05">
+                        <img src="./img/m_pants05.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="06">
+                        <img src="./img/m_pants06.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="07">
+                        <img src="./img/m_pants07.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="08">
+                        <img src="./img/m_pants08.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                  </ul>
+                  <div class="more-btn-conts">
+                    <a class="read-more-btn" href="#">
+                      Read more >>
+                    </a>
+                  </div>
+                </article>
+
+                <!-- ladies-pants-items------------------------------>
+                <article class="ladies-items">
+                  <h4 class="title">Ladies</h4>
+                  <ul>
+                    <li>
+                      <figure data-items="09">
+                        <img src="./img/l_pants01.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="10">
+                        <img src="./img/l_pants02.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="11">
+                        <img src="./img/l_pants03.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="12">
+                        <img src="./img/l_pants04.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="13">
+                        <img src="./img/l_pants05.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="14">
+                        <img src="./img/l_pants06.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="15">
+                        <img src="./img/l_pants07.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="16">
+                        <img src="./img/l_pants08.jpg" alt="">
+                        <figcaption>
+                          <p><small>パンツ</small></p>
+                          <p><small>2018 model</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                  </ul>
+                  <div class="more-btn-conts">
+                    <a class="read-more-btn" href="#">Read more >></a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- jacket　area -------------------------------------->
+            <div class="jacket-conts">
+              <!-- mens-jacket-items ---------------------------->
+              <div class="jacket-flex">
+                <article class="mens-items">
+                  <h4 class="title">Mens</h4>
+                  <ul>
+                    <li>
+                      <figure data-items="17">
+                        <img src="./img/m_outer01.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥34,560</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="18">
+                        <img src="./img/m_outer02.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="19">
+                        <img src="./img/m_outer03.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="20">
+                        <img src="./img/m_outer04.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="21">
+                        <img src="./img/m_outer05.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="22">
+                        <img src="./img/m_outer06.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="23">
+                        <img src="./img/m_outer07.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="24">
+                        <img src="./img/m_outer08.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                  </ul>
+                  <div class="more-btn-conts">
+                    <a class="read-more-btn" href="#">Read more >></a>
+                  </div>
+                </article>
+
+                <!-- ladies-jacket-items--------------------------->
+                <article class="ladies-items">
+                  <h4 class="title">Ladies</h4>
+                  <ul>
+                    <li>
+                      <figure data-items="25">
+                        <img src="./img/l_outer01.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="26">
+                        <img src="./img/l_outer02.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="27">
+                        <img src="./img/l_outer03.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="28">
+                        <img src="./img/l_outer04.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="29">
+                        <img src="./img/l_outer05.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="30">
+                        <img src="./img/l_outer06.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="31">
+                        <img src="./img/l_outer07.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                    <li>
+                      <figure data-items="32">
+                        <img src="./img/l_outer08.png" alt="">
+                        <figcaption>
+                          <p><small>ボトルネック</small></p>
+                          <p><small>リブニットプルオーバー</small></p>
+                          <p><small>¥3,229</small></p>
+                        </figcaption>
+                      </figure>
+                      <button class="cart-add-btn" type="button" name="button">カートに追加</button>
+                    </li>
+                  </ul>
+                  <div class="more-btn-conts">
+                    <a class="read-more-btn" href="#">Read more >></a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- info area news & event ----------------------------------->
+      <div class="info-area">
+        <!-- news ----------------------------------->
+        <article class="news-conts">
+          <h4 class="title">NEWS</h4>
+          <div class="">
+            <div class="news-img">
+              <img src="./img/layer5.png" alt="">
+            </div>
+            <p class="news-comment">
+              ナイトアウトのムードたっぷりなエコファーの素材感は、コーディネートのスパイスとして大活躍。<br>
+              デイ&ナイトで季節感漂う新作バッグをご紹介。<br>
+              ボリューム満点のエコファーが冬のスタイリングを華やかに。フェイドパープルとブラックの2色展開で、ショルダーストラップ付きの2WAY使用。
+            </p>
+          </div>
+          <a class="detale-hover" href="#">DETAIL</a>
+          <div class="">
+            <div class="news-img">
+              <img src="./img/layer5.png" alt="">
+            </div>
+            <p class="news-comment">
+              ナイトアウトのムードたっぷりなエコファーの素材感は、コーディネートのスパイスとして大活躍。<br>
+              デイ&ナイトで季節感漂う新作バッグをご紹介。<br>
+              ボリューム満点のエコファーが冬のスタイリングを華やかに。フェイドパープルとブラックの2色展開で、ショルダーストラップ付きの2WAY使用。
+            </p>
+          </div>
+          <a class="detale-hover" href="#">DETAIL</a>
+        </article>
+
+        <!-- news ----------------------------------->
+        <article class="event-conts">
+          <h4 class="title">EVENT</h4>
+          <div class="">
+            <div class="event-img">
+              <img src="./img/layer4.png" alt="">
+            </div>
+            <p class="event-comment">
+              cafの40周年を祝って登場するヘリテージピース。サングラスは、テンプルにcafの創始者ロート・シールトによる手書きメッセージ。<br>
+              正方形のスモークフレームと丸いレンズは過去と未来を表現しています。限定ウォッチはパワフルで真っ赤なハーフクリアケースが特徴。<br>
+              文字盤の『40th』の文字が目を惹きます。
+            </p>
+          </div>
+          <a class="detale-hover" href="#">DETAIL</a>
+          <div class="">
+            <div class="event-img">
+              <img src="./img/layer4.png" alt="">
+            </div>
+            <p class="event-comment">
+              cafの40周年を祝って登場するヘリテージピース。サングラスは、テンプルにcafの創始者ロート・シールトによる手書きメッセージ。<br>
+              正方形のスモークフレームと丸いレンズは過去と未来を表現しています。限定ウォッチはパワフルで真っ赤なハーフクリアケースが特徴。<br>
+              文字盤の『40th』の文字が目を惹きます。
+            </p>
+          </div>
+          <a class="detale-hover" href="#">DETAIL</a>
+        </article>
+      </div>
+    </main>
+
+    <!-- nav area -------------------------------------------------->
+    <footer>
+      <nav class="nav-area">
+        <ul>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">レディース</a></li>
+          <li><a href="#">メンズ</a></li>
+          <li><a href="#">キッズ</a></li>
+          <li><a href="#">cafホーム</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">企業情報</a></li>
+          <li><a href="#">採用情報</a></li>
+          <li><a href="#">cafグループについて</a></li>
+          <li><a href="#">企業責任</a></li>
+          <li><a href="#">プレス</a></li>
+          <li><a href="#">IR情報</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Corporate governance</a></li>
+          <li><a href="#">ヘルプ</a></li>
+          <li><a href="#">カスタマーサービス</a></li>
+          <li><a href="#">My caf</a></li>
+          <li><a href="#">店舗検索</a></li>
+          <li><a href="#">法規&プライバシー</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">MAIL MAGAZINE</a></li>
+          <li><a href="#">登録する</a></li>
+          <li><a href="#">FOLLOW US</a></li>
+          <li><a href="#"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+          <li><a href="#"><i class="fab fa-line"></i>Line</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i>Instaram</a></li>
+          <li><a href="#"><i class="fab fa-youtube-square"></i>Youtube</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- cart area ---------------------------------------------->
+    <div class="cart-inner">
+      <div class="cart-area">
+        <h3>現在カートに入っている商品</h3>
+        <p class="alert">カートに商品が入っていません</p>
+        <div>
+          <ul class="cart-item-list">
+          </ul>
+        </div>
+        <button class="close" type="button" name="button">閉じる</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/base.js"></script>
+  </body>
+</html>
